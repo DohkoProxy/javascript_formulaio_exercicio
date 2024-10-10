@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+    width: auto;
+}
+
+header{
+    font-size: 24px;
+    background-color: rgb(48, 13, 13);
+    color: blanchedalmond;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 22px;
+}
+
+input, button{
+    display: block;
+    padding: 12px;
+    margin-bottom: 8px;
+    width: 30%;
+    resize: none;
+}
+
+
+button{
+    background-color: rgb(48, 13, 13);
+    color: blanchedalmond;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border-radius: 14px;
+}
+
+button:hover{
+    background-color: rgb(88, 53, 53);
+}
+
+footer{
+    background-color: rgb(48, 13, 13);
+    color: blanchedalmond;
+    text-align: end;
+    padding: 16px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#mensagem{
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 12px;
+    margin-bottom: 8px;
+    width: 30%;
+}
